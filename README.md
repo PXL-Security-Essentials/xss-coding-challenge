@@ -9,7 +9,7 @@ Cross-Site Scripting is a security vulnerability where an attacker injects malic
 ## Getting Started
 Start the challenge by clicking the `start challenge` button, then navigate to the following url:
 ```
-http://<challgen-ip>:8080
+http://<challenge-ip>:8080
 ```
 
 Open a terminal window in the IDE in your browser (`view`>`terminal`) and run the following commands:
