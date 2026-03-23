@@ -1,0 +1,12 @@
+{
+  "name": "xss-code-challenge",
+  "version": "1.0.0",
+  "description": "XSS Code Challenge - Learn about Cross-Site Scripting",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0"
+  }
+}
