@@ -2,7 +2,7 @@
 
 ## What is XSS?
 
-Cross-Site Scripting is a security vulnerability where an attacker injects malicious JavaScript into a web page. When another user visits that page, the script runs inside their browser — as if the website itself sent it.
+Cross-Site Scripting is a security vulnerability where an attacker injects malicious JavaScript into a web page. When another user visits that page, the script runs inside their browser as if the website itself sent it.
 
 > Think of it like someone sneaking a fake message onto a public whiteboard. Everyone who reads it thinks it's legit.
 
@@ -52,7 +52,7 @@ Save the file, then restart the server (`Ctrl+C`, then `npm start` again).
 
 ---
 
-## Step 2 — Test the Happy Path
+## Test the Happy Path
 
 1. Go to [http://<challenge-ip>:3000](http://<challenge-ip>:3000)
 2. Enter a name, e.g. `Alice`
@@ -64,7 +64,7 @@ Save the file, then restart the server (`Ctrl+C`, then `npm start` again).
 
 Everything works as expected.
 
-## iscover the XSS Exploit
+## Discover the XSS Exploit
 
 Now let's try something different. Go back to the form and submit:
 
