@@ -7,8 +7,12 @@ Cross-Site Scripting is a security vulnerability where an attacker injects malic
 > Think of it like someone sneaking a fake message onto a public whiteboard. Everyone who reads it thinks it's legit.
 
 ## Getting Started
+Start the challenge by clicking the `start challenge` button, then navigate to the following url:
+```
+http://<challgen-ip>:8080
+```
 
-Open a terminal window in the IDE (`view`>`terminal`) and run the following commands:
+Open a terminal window in the IDE in your browser (`view`>`terminal`) and run the following commands:
 
 ```bash
 # 1. Install dependencies
@@ -16,8 +20,10 @@ npm install
 
 # 2. Start the server
 npm start
+```
 
-# 3. Open your browser at:
+Open your browser at:
+```
 http://<challengeIP>:3000
 ```
 
